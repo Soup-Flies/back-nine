@@ -1,17 +1,16 @@
 .front-nine-vodka, .back-nine-bourbon {
-    padding: 5% 20%;
-
+    padding: 10% 20%;
+    height: 60vh;
 }
 
 .front-nine-vodka {
-    height: 80vh;
     background: url(../../../assets/vodkabg.jpg) no-repeat center center fixed;
     background-size: cover;
     margin-bottom: 5px;
 }
 
 .front-nine-vodka img, .back-nine-bourbon img {
-    margin-bottom: 80px;
+    margin-bottom: 5%;
 }
 
 .front-nine-vodka h2 {
@@ -31,7 +30,7 @@
 
 
 .back-nine-bourbon {
-    height: 80vh;
+
     background: url(../../../assets/bourbonbg.png) no-repeat center center fixed;
     background-size: cover;
     
@@ -62,4 +61,28 @@
     width: 50%;
     margin: 0 auto 30px;
     border-bottom: 1px solid #077045;
+}
+
+
+@media only screen and (max-width: 760px) {
+    img {
+        margin-top: 20%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+    img {
+        width: 50%;
+    }
+
+    .front-nine-vodka p, .back-nine-bourbon p {
+        width: 100%;
+    }
+
+    .front-nine-vodka, .back-nine-bourbon {
+        padding: 5% 30px;
+        height: 95vh;
+    }
+
 }
