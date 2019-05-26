@@ -1,0 +1,96 @@
+.Verify {
+    height: 100%;
+    background: url(../../../assets/login.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+
+.logo-container {
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    padding: 7% 0;
+}
+
+.brand-logo {
+    max-width: 45%;
+    max-height: 100%;
+    height: auto;
+}
+
+.verify-header {
+    margin: 2% 35%;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.age-input {
+    font-weight: bold;
+    width: 15%;
+    max-width: 180px;
+    padding: 5px;
+    margin: 0 1%;
+    font-size: 24px;
+    text-align: center;
+    opacity: 0.85;
+    border-radius: 6px;
+    outline: none;
+    border: #FFFFFFD8 2px solid;
+}
+
+.age-input:focus {
+    border: black 2px solid;
+}
+
+
+.age-verify-button {
+    width: 25%;
+    background-color: #111;
+    border: none;
+    color: #EEE;
+    outline: none;
+    min-width: 100px;
+    max-width: 280px;
+    min-height: 50px;
+    padding: 5px;
+    margin: 25px 0;
+    font-size: 24px;
+}
+
+.age-verify-button:active {
+    background-color: #000;
+}
+
+
+.policy-and-terms {
+    font-weight: bold;
+    line-height: 30px;
+    background-color: #000000B0;
+    color: #EEE;
+}
+
+@media only screen and (max-width: 700px) {
+    h2 {
+        font-size: 20px;
+    }
+
+    .age-input, button {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+   .verify-header {
+       margin: 2% 25%;
+   }
+}
+
+@media only screen and (max-width: 250px) {
+    .verify-header {
+        margin: 2% 15%;
+    }
+}

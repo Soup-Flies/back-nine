@@ -1,14 +1,49 @@
+@font-face {
+  font-family: BackNine;
+  src: url(assets/lubalin/LubalinGraphStd-Book.otf) format("opentype")
+}
+
+@font-face {
+  font-family: BackNine;
+  font-weight: bold;
+  src: url(assets/lubalin/LubalinGraphStd-Demi.otf) format("opentype")
+}
+
+@font-face {
+  font-family: BackNine;
+  font-weight: normal;
+  font-style: italic;
+  src: url(assets/lubalin/LubalinGraphStd-BookOblique.otf) format("opentype")
+}
+
+
+@font-face {
+  font-family: BackNine;
+  font-weight: bold;
+  font-style: italic;
+  src: url(assets/lubalin/LubalinGraphStd-DemiOblique.otf) format("opentype")
+}
+
+
+
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-size: 20px;
 }
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+* {
+  font-family: BackNine, "Roboto", "Oxygen",
+  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #111;
 }
